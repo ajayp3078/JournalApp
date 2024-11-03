@@ -1,0 +1,37 @@
+spring:
+#  redis:
+#    host: redis-11254.c264.ap-south-1-1.ec2.redns.redis-cloud.com
+#    port: 11254
+#    password: vkIP0wNzuJtTO8Q7QIhezD4ecwwDcbtk
+#    username: default
+  profiles:
+    active: dev
+
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: ajayp3078@gmail.com
+    password: napx ybfo doqd pyjj
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+
+weather:
+  api:
+    key: 751145d61fd874525fe892f9ae4cf7e1
+
+weather_api_key: 751145d61fd874525fe892f9ae4cf7e1
+
+#logging:
+#  level:
+#    com:
+#      journalapp: ERROR
+
+#logging:
+#  level:
+#    com:
+#      journalapp:
+#        service: OFF

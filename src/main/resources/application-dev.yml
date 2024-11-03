@@ -1,0 +1,20 @@
+spring:
+  redis:
+#    uri: redis-11254.c264.ap-south-1-1.ec2.redns.redis-cloud.com:11254
+#    host: redis-11254.c264.ap-south-1-1.ec2.redns.redis-cloud.com
+#    port: 11254
+#    password: vkIP0wNzuJtTO8Q7QIhezD4ecwwDcbtk
+    host: localhost
+    port: 6679
+  data:
+    mongodb:
+      uri: mongodb+srv://ajayp3078:Ajay1999@cluster0.3qbub.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+      database: journaldb
+      auto-index-creation: true
+  main:
+    allow-circular-references: true
+
+server:
+  port: 8080
+#  servlet:
+#    context-path: /journal
